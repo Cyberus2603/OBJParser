@@ -72,7 +72,7 @@ def main():
             result_trv[len(result_trv) - 1] += splited_string[1] + ', '
             result_trv[len(result_trv) - 1] += splited_string[2] + ', '
             result_trv[len(result_trv) - 1] += splited_string[3] + ', \n'
-            trv_count[len(result_trv) - 1] += 3
+            trv_count[len(result_trv) - 1] += 1
 
     for line in material_file.readlines():
         line = line.rstrip()
